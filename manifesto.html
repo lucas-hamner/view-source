@@ -5,10 +5,14 @@
 
 <head>
     <meta charset="utf-8">
+    <!--adding typewriter like font (free google font)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
     <title>True beauty is born, not created.</title>
     <style> 
         body {
-        font-family: "Helvetica","Arial",sans-serif;
+        font-family: "Special Elite","Courier New",monospace;
         background-color: rgb(12, 2, 4);
         color: rgb(219, 52, 1);
         }
@@ -18,7 +22,7 @@
             font-size: 220px;
             letter-spacing: 12px;
             /* negative margins decrease space between lines */
-            margin-top: 350px;
+            margin-top: 150px;
             margin-bottom: -80px;
             margin-right: 500px;
             text-align:center;
@@ -36,6 +40,11 @@
             display:inline-block;
             transform: rotate(-10deg);
         }
+        .highlight {
+            font-weight: bold;
+            font-size: 100px;
+            color: white
+        }
     </style>
 
 </head>
@@ -43,8 +52,9 @@
 <body>
 
      <h1 class="offset">
-        True<span>beauty is</span>born not<span style="transform:rotate(15deg);">crea</span>ted.
+        True<span>beauty is</span>born <span class="highlight">not</span> <span style="transform:rotate(15deg);">crea</span>ted.
     </h1>
+
 <script>
     console.log("Hello, from me. :)");
 </script>
